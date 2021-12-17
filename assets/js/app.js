@@ -58,74 +58,74 @@ const app= {
         {
             name: 'Sài Gòn Đâu Có Lạnh Đâu',
             singer: 'Changg, LeWiuy',
-            path: '../assets/music/song14.mp3',
-            image: '../assets/img/song/song14.jpg'
+            path: './assets/music/song14.mp3',
+            image: './assets/img/song/song14.jpg'
         },
         {
             name: 'Khuê Mộc Lang',
             singer: 'Hương Ly, Jombie',
-            path: '../assets/music/song15.mp3',
-            image: '../assets/img/song/song15.jpg'
+            path: './assets/music/song15.mp3',
+            image: './assets/img/song/song15.jpg'
         },
         {
             name: 'Có Hẹn Với Thanh Xuân',
             singer: 'Monstar',
-            path: '../assets/music/song13.mp3',
-            image: '../assets/img/song/song13.jpg'
+            path: './assets/music/song13.mp3',
+            image: './assets/img/song/song13.jpg'
         },
         {
             name: 'The Phoenix',
             singer: 'Fall Out Boy',
-            path: '../assets/music/song12.mp3',
-            image: '../assets/img/song/song12.jpg'
+            path: './assets/music/song12.mp3',
+            image: './assets/img/song/song12.jpg'
         },
         {
             name: 'Cưới Thôi',
             singer: 'masew',
-            path: '../assets/music/song1.mp3',
-            image: '../assets/img/song/song1.jpg'
+            path: './assets/music/song1.mp3',
+            image: './assets/img/song/song1.jpg'
         },
         {
             name: 'Độ Tộc 2',
             singer: 'Masew x Pháo x Phúc Du ',
-            path: '../assets/music/song2.mp3',
-            image: '../assets/img/song/song2.jpg'
+            path: './assets/music/song2.mp3',
+            image: './assets/img/song/song2.jpg'
         },
         {
             name: 'Cứ Chill Thôi',
             singer: 'Chillies, Suni Hạ Linh',
-            path: '../assets/music/song3.mp3',
-            image: '../assets/img/song/song3.jpg'
+            path: './assets/music/song3.mp3',
+            image: './assets/img/song/song3.jpg'
         },
         {
             name: 'Muộn Rồi Mà Sao Còn',
             singer: 'Sơn Tùng M-TP',
-            path: '../assets/music/song6.mp3',
-            image: '../assets/img/song/song6.jpg'
+            path: './assets/music/song6.mp3',
+            image: './assets/img/song/song6.jpg'
         },
         {
             name: 'Rồi Tới Luôn',
             singer: 'Nal',
-            path: '../assets/music/song4.mp3',
-            image: '../assets/img/song/song4.jpg'
+            path: './assets/music/song4.mp3',
+            image: './assets/img/song/song4.jpg'
         },
         {
             name: 'Kẻ Theo Đuổi Sánh Sáng',
             singer: 'Huy Vạc',
-            path: '../assets/music/song7.mp3',
-            image: '../assets/img/song/song7.jpg'
+            path: './assets/music/song7.mp3',
+            image: './assets/img/song/song7.jpg'
         },
         {
             name: 'At My Worst',
             singer: 'Pink Sweat',
-            path: '../assets/music/song10.mp3',
-            image: '../assets/img/song/song10.jpg'
+            path: './assets/music/song10.mp3',
+            image: './assets/img/song/song10.jpg'
         },
         {
             name: 'Play Date',
             singer: 'Melanie Martinez',
-            path: '../assets/music/song11.mp3',
-            image: '../assets/img/song/song11.jpg'
+            path: './assets/music/song11.mp3',
+            image: './assets/img/song/song11.jpg'
         },
     ],
     bgImages: [
