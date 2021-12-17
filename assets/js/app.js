@@ -128,41 +128,7 @@ const app= {
             image: './assets/img/song/song11.jpg'
         },
     ],
-    bgImages: [
-        {
-            nameImg: 'img1',
-            path: '../assets/img/bgAnimate/bganimate1.jpg'
-        },
-        {
-            nameImg: 'img2',
-            path: '../assets/img/bgAnimate/bganimate2.jpg'
-        },
-        {
-            nameImg: 'img3',
-            path: '../assets/img/bgAnimate/bganimate3.jpg'
-        },
-        {
-            nameImg: 'img4',
-            path: '../assets/img/bgAnimate/bganimate4.jpg'
-        },
-        {
-            nameImg: 'img5',
-            path: '../assets/img/bgAnimate/bganimate5.jpg'
-        },
-        {
-            nameImg: 'img6',
-            path: '../assets/img/bgAnimate/bganimate6.jpg'
-        },
-        {
-            nameImg: 'img7',
-            path: '../assets/img/bgAnimate/bganimate7.jpg'
-        },
-        {
-            nameImg: 'img8',
-            path: '../assets/img/bgAnimate/bganimate8.jpg'
-        },
-        
-    ],
+    
 
     render: function () {
         // hiển thị danh sách bài hát
