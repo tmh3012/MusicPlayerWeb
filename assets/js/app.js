@@ -3,6 +3,8 @@
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
+const search = document.querySelector('.header__search')
+const searchInput = document.querySelector('.header__search-input')
 const songName = $('.cd-name-song')
 const singerName = $('.cd-singer')
 const cdThumd = $('.cd-thumb')
@@ -261,6 +263,24 @@ const app= {
     },
     // hàm xử lý các event trên website
     handleEvent: function () {
+
+	// xử lý giao diện khi người dùng click vào thanh tìm kiếm
+        searchInput.onfocus = function() {
+            Object.assign(search.style, {
+                borderBottomRightRadius: "0rem",
+                borderBottomLeftRadius: "0rem",
+                backgroundColor: "#432275"
+            })
+        }
+
+        searchInput.onblur = function() {
+            Object.assign(search.style, {
+                borderBottomRightRadius: "2rem",
+                borderBottomLeftRadius: "2rem",
+                backgroundColor: "hsla(0,0%,100%,.1)"
+            })
+        }
+
         const _this = this
         // đổi màu header khi user scroll
         appContainer.onscroll = function() {
