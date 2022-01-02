@@ -23,6 +23,10 @@
     padding: 0.5rem 0;
 }
 
+.logo .logo-small {
+    display: none;
+}
+
 .mp3-logo {
     width: 12rem;
     height: var(--logo-height);
@@ -40,7 +44,8 @@
 }
 
 .navigation__middle-scroll::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 0.4rem;
+    z-index: 11;
 }
 
 .navigation__middle-scroll::-webkit-scrollbar-track {
@@ -48,13 +53,13 @@
 }
 
 .navigation__middle-scroll::-webkit-scrollbar-thumb {
-    background-color: #d3d3d3;
+    background-color: var(--text-color-secondary);
     border-radius: 0.3rem;
 }
 
 
 .navigation__middle-scroll {
-    height: calc(100vh - var(--total-logo-height) - var(--nav-bottom-height) - 25rem - var(--player-height));
+    height: calc(100vh - var(--total-logo-height) - var(--nav-bottom-height) - 26rem - var(--player-height));
     overflow: hidden auto;
 }
 
@@ -62,11 +67,11 @@
     text-decoration: none;
     color: var(--white-color);
     display: flex;
-    padding: 1rem  2.5rem;
+    /* padding: 1rem  2.5rem; */
     align-items: center;
 }
 .navigation__item {
-    
+    padding: 1.1rem 2.5rem;
 }
 
 .item-text {
@@ -147,11 +152,27 @@
     padding: 1rem 0;
     position: fixed;
     bottom: var(--player-height);
-    z-index: 111;
     border-top: 0.1rem solid var(--white-color);
     width: var(--nav-width);
     height: var(--nav-bottom-height);
 }
+
+.navigation__bottom .item-link, .logo .item-link {
+    padding: 1rem 2.5rem;
+}
+
+.bottom__btn {
+
+}
+
+.btn-open {
+
+}
+
+.btn-close {
+
+}
+
 
 .bottom-icon {
     font-size: 2rem;

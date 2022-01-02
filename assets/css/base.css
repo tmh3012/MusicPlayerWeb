@@ -96,6 +96,11 @@ html {
     /* overflow: hidden scroll; */
 }
 
+
+.navigation__item.isActive {
+    background-color: var(--border-color-secondary);
+}
+
 .tab-personal {
 
 }
