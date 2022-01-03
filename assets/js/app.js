@@ -56,6 +56,8 @@ const app= {
     isPlaying: false,
     isRandom: false,
     isRepeat: false,
+    isBottomToggle: false,
+    isNavigationAction: false,
     songs: [
         {
             name: 'Sài Gòn Đâu Có Lạnh Đâu',
@@ -263,6 +265,21 @@ const app= {
     },
     // hàm xử lý các event trên website
     handleEvent: function () {
+
+    // xử lý người dùng mở rộng thanh navi
+    const bottomBtnToggle = $('.bottom__btn-toggle')
+    const bottomBtnOpen = $('.bottom__btn.btn-open')
+    const bottomBtnClose = $('.bottom__btn.btn-close')
+    const navigationAction = $('.navigation')
+
+
+    bottomBtnToggle.onclick = function () {
+        _this.isBottomToggle = !_this.isBottomToggle;
+        bottomBtnToggle.classList.toggle('active', !_this.isBottomToggle)
+        _this.isNavigationAction = !_this.isNavigationAction;
+        navigationAction.classList.toggle('action', !_this.isNavigationAction)
+    }
+
 
 	// xử lý giao diện khi người dùng click vào thanh tìm kiếm
         searchInput.onfocus = function() {

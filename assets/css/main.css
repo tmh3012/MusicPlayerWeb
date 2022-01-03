@@ -11,6 +11,7 @@
     display: flex;
 }
 
+
 .navigation__wrap {
     display: flex;
     flex-direction: column;
@@ -161,8 +162,8 @@
     padding: 1rem 2.5rem;
 }
 
-.bottom__btn {
-
+.bottom__btn-toggle {
+    display: none;
 }
 
 .btn-open {
@@ -534,23 +535,7 @@
     display: flex;
 }
 
-.header__button-circle {
-    font-size: 2rem;
-    line-height: 4rem;
-    color: var(--white-color);
-    margin: 0.5rem;
-    width: 4rem;
-    height: 4rem;
-    clip-path: circle(50%);
-    /* border-radius: 50%; */
-    background-color: hsla(0,0%,100%,.1);
-    cursor: pointer;
-    position: relative;
-}
 
-.header__button-circle:hover {
-    background-color: hsla(0,0%,100%,0.07);
-}
 
 /* hover vào icon sẽ hiển thị mô tả */
 .header__icon-wrap {
@@ -643,11 +628,7 @@
     border-radius:50%
 }
 
-.header__button-icon {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 
 /* -----------------------content------------------- */
 /* ----------------home page-------------------*/

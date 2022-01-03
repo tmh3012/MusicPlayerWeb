@@ -49,6 +49,11 @@ html {
     margin-top: 2rem;
 }
 
+.nowrap {
+    flex-wrap: nowrap!important;
+    overflow: auto hidden;
+}
+
 .app {
     height: calc(100vh - var(--player-height));
     position: relative;
@@ -329,4 +334,30 @@ html {
 
 .item-info__subscribe-text {
     text-transform: uppercase;
+}
+
+
+/* button circle  */
+.header__button-circle, .bottom__btn-toggle {
+    font-size: 2rem;
+    line-height: 4rem;
+    color: var(--white-color);
+    margin: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    clip-path: circle(50%);
+    /* border-radius: 50%; */
+    background-color: hsla(0,0%,100%,.1);
+    cursor: pointer;
+    position: relative;
+}
+
+.header__button-circle:hover , .bottom__btn-toggle:hover {
+    background-color: hsla(0,0%,100%,0.07);
+}
+
+.header__button-icon,  .bottom__btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
